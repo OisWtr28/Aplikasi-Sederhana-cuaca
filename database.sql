@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS `cuaca-app`;
+USE `cuaca-app`;
+
+CREATE TABLE IF NOT EXISTS riwayat (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    kota VARCHAR(100),
+    suhu FLOAT,
+    kondisi VARCHAR(100),
+    waktu DATETIME DEFAULT CURRENT_TIMESTAMP
+);

@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('img/awan.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  margin: 50px auto;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #000;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+}
+
+button {
+  background-color: #2196F3;
+  color: white;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  color: black;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
